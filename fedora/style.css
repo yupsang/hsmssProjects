@@ -1,0 +1,162 @@
+/* Main Contain CSS */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+
+  .container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-contain{
+  flex: 1;
+  padding: 20px;
+}
+
+  header img {
+    display: inline-block;
+    width: 337px;
+    height: 119px;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+
+  header {
+    background-color: #39a2db;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  nav {
+    background-color: #d9d9d9;
+    padding: 10px;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+  }
+
+  nav ul li a:hover {
+    background-color: #333;
+    color: #fff;
+  }
+
+  section {
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+  table th {
+    background-color: #d9d9d9;
+    color: #333;
+  }
+
+  footer {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .section {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.collapsible {
+    cursor: pointer;
+}
+.content {
+    display: none;
+}
+
+
+/* Form contain CSS*/
+.form-contain {
+  flex: 1;
+  padding: 20px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="text"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#eSewa-btn{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+
+/* Responsive CSS */
+  @media screen and (max-width: 600px) {
+    /* Styles for small screens */
+    header {
+      font-size: 24px;
+    }
+
+    nav ul li {
+      display: block;
+      margin: 10px 0;
+    }
+
+    section {
+      padding: 10px;
+    }
+
+    table {
+      font-size: 14px;
+    }
+  }
