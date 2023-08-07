@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>College Guestbook</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>College Guestbook - HSMSS</h1>
+  </header>
+
+  <main>
+    <section id="guestbook-form">
+      <h2>Leave a Message</h2>
+      <form id="message-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" rows="4" required></textarea>
+
+        <label for="affiliation">Affiliation (optional):</label>
+        <input type="text" id="affiliation">
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <section id="guestbook-messages">
+      <h2>Guestbook Messages</h2>
+      <div id="messages-list">
+        <!-- Messages will be dynamically populated here -->
+      </div>
+      <div id="pagination">
+        <!-- Pagination links will be dynamically populated here -->
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

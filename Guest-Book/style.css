@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #0b5bb1;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  #guestbook-form {
+    margin-bottom: 2rem;
+  }
+  
+  form {
+    display: grid;
+    gap: 1rem;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #guestbook-messages {
+    border-top: 1px solid #ccc;
+    padding-top: 1rem;
+  }
+  
+  #messages-list {
+    margin-top: 1rem;
+  }
+  
+  .message {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .message h3 {
+    margin: 0;
+  }
+  
+  .message p {
+    margin: 0;
+  }
+  
+  #pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  .pagination-link {
+    margin: 0 0.5rem;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .pagination-link.active {
+    font-weight: bold;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 600px) {
+    form {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  
